@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --vermelho:rgb(228, 2, 2);
+    --preto:#141414;
+}
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--preto);
+    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
+header .logo{
+    color: var(--vermelho);
+    font-size: 40px;
+    font-family: Arial Black;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+
+}
+header nav a {
+    color: #aaa;
+    margin-right: 18px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+header nav a:hover{
+    color: #fff;
+}
